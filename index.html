@@ -28,11 +28,13 @@
         <img src="images\turbotax.png" alt="">
         <p>turbotax</p>
       </div>
+
       <div class="sign-form">
         <h3>Create an Intuit account</h3>
         <p>One account for everything Intuit, including Mint.</p>
         <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn More</a>
-        <form action="">
+        
+        <form action="" class="normal-form">
           <label for="email">Email address</label>
           <input type="email" id="email">
           <label for="phone-number">Phone (recomended)</label>
@@ -42,20 +44,30 @@
           <input type="password" id="password">
           <button>Create Account</button>
         </form>  
-        <p>By clicking Create account, you agree to our
-          <a href="https://www.mint.com/terms">Terms</a> and have read and acknowledge our <a href="https://www.intuit.com/privacy/">Privacy Statement.</a></p> 
-          <footer>
-            <p>Invisible reCAPTCHA by Google <a href="https://policies.google.com/privacy?hl=en">Privacy Policy</a> and <a href="https://policies.google.com/terms?hl=en">Terms of Use.</a></p>
-          </footer>     
+        
+        <p id="form-term">By clicking Create account, you agree to our
+          <a href="https://www.mint.com/terms">Terms</a> and have read and acknowledge our <a href="https://www.intuit.com/privacy/">Privacy Statement.</a>
+        </p>
+
+        <footer id="inner-footer">
+          <p>Invisible reCAPTCHA by Google <a href="https://policies.google.com/privacy?hl=en">Privacy Policy</a> and <a href="https://policies.google.com/terms?hl=en">Terms of Use.</a></p>
+        </footer>
       </div>
     </div>
-
   </main>
 
-  
+  <div class="footer-links">
+    <a href="#">Legal</a>
+    <a href="#">Privacy</a>
+    <a href="#">Security</a>
+  </div>
 
-
+  <footer id="main-footer">
+    <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+    <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+  </footer>
   
+  <button id="privacity">Privacity Settings</button>
 
 </body>
 
