@@ -26,9 +26,9 @@ button {
 
 main {
   margin: auto;
-  background-color: blue;
+  background-color:orange;
   width: 500px;
-  height: 500px;
+  height: 2000px;
 }
 
 .title-icons {
@@ -56,4 +56,14 @@ main {
   .header {
     display: none;
   }
+}
+
+#fixed {
+  position: fixed;
+  top: 0;
+  right: -1;
+  width: 100%;
+}
+#fixedb {
+  width: 20px;
 }
