@@ -1,6 +1,6 @@
 # Mint Sign Up
 
-> This is a mint.com fragment clone, here we are clonning the sign up.
+> This is a mint.com fragment clone, here we are cloning the signup.
 
 ![screenshot](https://github.com/SevlaMare/mint-sign-up-clone/blob/master/images/screenshotpng.png)
 
@@ -28,7 +28,7 @@ The project features includes:<br>
   <h3>Others</h3>
   <li>Top right button</li>
   <li>Bottom footer</li>
-  <li>correct main collors</li>
+  <li>Use the right main colors</li>
 </ul>
 
 
