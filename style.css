@@ -1,12 +1,59 @@
-*{
+* {
   background-color: #ECEEF1;
+  margin: 0;
 }
 
-.form{
+.form {
   background: #fff;
   color: #4C4C4C;
 }
 
-button{
+button {
   background: #0077C5;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: center;
+}
+
+.header-options {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  margin: auto;
+  background-color: blue;
+  width: 500px;
+  height: 500px;
+}
+
+.title-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-icons img {
+  width: 25px;
+}
+
+#title-branch-icon {
+  margin: auto;
+  width: 150px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: red;
+}
+
+@media (max-width: 780px) {
+  .header {
+    display: none;
+  }
 }
