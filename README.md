@@ -12,9 +12,9 @@ The project features includes:
 
 ## Built With
 
-- HTML5 and CSS3
-- Stickler-ci (Linter) and W3C validator
-- VScode, Git and Github
+- HTML5 and CSS3 <br>
+- Stickler-ci (Linter) and W3C validator <br>
+- VScode, Git and Github <br>
 
 ## Live Demo
 
@@ -26,11 +26,11 @@ The project features includes:
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-Download Git at https://git-scm.com/downloads
+Download Git at https://git-scm.com/downloads<br>
 Make a Github account with SSH key setup in your current machine.
 
 ### Setup
-Clone the repository with terminal:
+Clone the repository with terminal:<br>
 git@github.com:SevlaMare/mint-sign-up-clone.git
 
 Ready to use
