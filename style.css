@@ -50,14 +50,14 @@ p {
   cursor: pointer;
 }
 
-
 a {
   text-decoration: none;
   color: #0077c5;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.sign-form p, label {
+.sign-form p, 
+label {
   font-size: 14px;
   color: #4c4c4c;
 }
@@ -147,7 +147,7 @@ form {
   width: 378px;
   text-align: center;
   padding: 20px 0;
-  border-bottom: #cfcccc solid 1px;
+  border-bottom:#cfcccc solid 1px;
   border-right:#cfcccc solid 1px;
   border-left:#cfcccc solid 1px;
 }
@@ -155,6 +155,12 @@ form {
 #inner-footer p {
   font-size: 10px;
   color: #807e7e;
+}
+
+.footer-links a {
+  color: rgb(49, 48, 48);
+  font-size: 12px;
+  margin: 0 5px;
 }
 
 #inner-footer a {
@@ -166,12 +172,6 @@ form {
   width: 100%;
   margin: auto;
   margin-top: 30px;
-}
-
-.footer-links a {
-  color: rgb(49, 48, 48);
-  font-size: 12px;
-  margin: 0 5px;
 }
 
 #main-footer {
