@@ -2,7 +2,7 @@
 
 > This is a mint.com fragment clone, here we are clonning the sign up.
 
-![screenshot](./screenshotpng.png)
+![screenshot](https://github.com/SevlaMare/mint-sign-up-clone/blob/master/images/screenshotpng.png)
 
 The project features includes:
 
