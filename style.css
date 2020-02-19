@@ -1,5 +1,6 @@
 *{
   background-color: #ECEEF1;
+  margin: 0;
 }
 
 .form{
@@ -9,4 +10,10 @@
 
 button{
   background: #0077C5;
+}
+
+.header{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
