@@ -65,6 +65,13 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 15px;
+}
+
+.title-icons p {
+  margin-right: 8px;
+  margin-left: 4px;
+  color: #807e7e;
 }
 
 .title-icons img {
