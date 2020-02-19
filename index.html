@@ -12,7 +12,7 @@
   <header class="header">
     <div class="header-options">
       <p>Already have an Intuit account?</p>
-      <a>I forgot my User ID or Password</a>
+      <a href="https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26ivid%3D8b83ceae-7727-4a64-a91a-64e7d5641d2f%26adobe_mc%3DMCMID%253D74524913967330699922787109875283683273%257CMCAID%253D2F26456F0515B442-6000067F802DC1F4%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1582074596%26ivid%3D8b83ceae-7727-4a64-a91a-64e7d5641d2f#">I forgot my User ID or Password</a>
     </div>
     <button class="header-button">Sign In</button>
   </header>
@@ -28,11 +28,13 @@
         <img src="images\turbotax.png" alt="">
         <p>turbotax</p>
       </div>
+
       <div class="sign-form">
         <h3>Create an Intuit account</h3>
         <p>One account for everything Intuit, including Mint.</p>
         <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn More</a>
-        <form action="">
+        
+        <form action="" class="normal-form">
           <label for="email">Email address</label>
           <input type="email" id="email">
           <label for="phone-number">Phone (recomended)</label>
@@ -42,23 +44,30 @@
           <input type="password" id="password">
           <button>Create Account</button>
         </form>  
-        <p>By clicking Create account, you agree to our
-          <a href="https://www.mint.com/terms">Terms</a> and have read and acknowledge our <a href="https://www.intuit.com/privacy/">Privacy Statement.</a></p> 
-          <footer>
-            <p>Invisible reCAPTCHA by Google <a href="https://policies.google.com/privacy?hl=en">Privacy Policy</a> and <a href="https://policies.google.com/terms?hl=en">Terms of Use.</a></p>
-          </footer>     
+        
+        <p id="form-term">By clicking Create account, you agree to our
+          <a href="https://www.mint.com/terms">Terms</a> and have read and acknowledge our <a href="https://www.intuit.com/privacy/">Privacy Statement.</a>
+        </p>
+
+        <footer id="inner-footer">
+          <p>Invisible reCAPTCHA by Google <a href="https://policies.google.com/privacy?hl=en">Privacy Policy</a> and <a href="https://policies.google.com/terms?hl=en">Terms of Use.</a></p>
+        </footer>
       </div>
     </div>
-
   </main>
 
-    <footer id="fixed">
-      <button id="fixedb">privacy</button>
-    </footer>
-  
+  <div class="footer-links">
+    <a href="#">Legal</a>
+    <a href="#">Privacy</a>
+    <a href="#">Security</a>
+  </div>
 
-
+  <footer id="main-footer">
+    <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+    <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+  </footer>
   
+  <button id="privacity">Privacity Settings</button>
 
 </body>
 
