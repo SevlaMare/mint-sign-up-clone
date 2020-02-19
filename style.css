@@ -183,12 +183,25 @@ form {
   text-align: center;
   color: #4C4C4C;
   width: 580px;
+  line-height: 18px;
 }
 
-#privacity {
+#privacity-settings {
   position: fixed;
   bottom: 0;
   right: -1px;
+  margin-right: 40px;
+  background-color: rgb(91, 93, 95);
+  color: #e7ecf0;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  font-size: 13px;
+  padding: 0 15px;
+}
+
+#privacity-settings:hover {
+  cursor: pointer;
 }
 
 .sign-form{
@@ -208,7 +221,19 @@ form {
   border: none;
 }
 
+#phone-message {
+  margin-top: 5px;
+  font-size: 10px;
+}
+
 .normal-form button:hover {
   cursor: pointer;
 }
 
+.normal-form input {
+  height: 30px;
+  width: 318px;
+  border-radius: 5px;
+  border: solid 1px rgb(167, 166, 166);
+  decoration: none;
+}
