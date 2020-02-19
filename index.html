@@ -12,40 +12,41 @@
   <header class="header">
     <div class="header-options">
       <p>Already have an Intuit account?</p>
-      <a>I forgot my User ID or Password</a>
+      <a href="https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26ivid%3D8b83ceae-7727-4a64-a91a-64e7d5641d2f%26adobe_mc%3DMCMID%253D74524913967330699922787109875283683273%257CMCAID%253D2F26456F0515B442-6000067F802DC1F4%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1582074596%26ivid%3D8b83ceae-7727-4a64-a91a-64e7d5641d2f#">I forgot my User ID or Password</a>
     </div>
     <button class="header-button">Sign In</button>
   </header>
 
   <main class="main">
     <div class="title">
-      <img id="title-branch-icon" src="images\intuit.png" alt="branch icon">
+      <img id="title-branch-icon" src="./images/intuit.png" alt="branch icon">
       <div class="title-icons">
-        <img src="images\mint.png" alt="">
+        <img src="./images/mint.png" alt="mint icon">
         <p>mint</p>
-        <img src="images\quickbooks.png" alt="">
+        <img src="./images/quickbooks.png" alt="quickbooks icon">
         <p>quickbooks</p>
-        <img src="images\turbotax.png" alt="">
+        <img src="./images/turbotax.png" alt="turbotax icon">
         <p>turbotax</p>
       </div>
 
       <div class="sign-form">
         <h3>Create an Intuit account</h3>
         <p>One account for everything Intuit, including Mint.</p>
-        <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn More</a>
+        <a id="learn-more" href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn More</a>
+        <p>Alredy have an account? <a href="https://accounts.intuit.com/index.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26ivid%3D8b83ceae-7727-4a64-a91a-64e7d5641d2f%26adobe_mc%3DMCMID%253D74524913967330699922787109875283683273%257CMCAID%253D2F26456F0515B442-6000067F802DC1F4%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1582074596%26ivid%3D8b83ceae-7727-4a64-a91a-64e7d5641d2f">Sign In</a></p>
         
-        <form action="" class="normal-form">
+        <form action="/" class="normal-form">
           <label for="email">Email address</label>
-          <input type="email" id="email">
+          <input type="email" id="email" required>
           <label for="phone-number">Phone (recomended)</label>
-          <input type="number" id="phone-number">
-          <p>Standard call, messaging or data rates may apply.</p>
+          <input type="tel" id="phone-number" required>
+          <p id="phone-message">Standard call, messaging or data rates may apply.</p>
           <label for="password">Password</label>
-          <input type="password" id="password">
+          <input type="password" id="password" required>
           <button>Create Account</button>
         </form>  
         
-        <p id="form-term">By clicking Create account, you agree to our
+        <p id="form-term">By clicking Create account, you agree to our <br>
           <a href="https://www.mint.com/terms">Terms</a> and have read and acknowledge our <a href="https://www.intuit.com/privacy/">Privacy Statement.</a>
         </p>
 
@@ -57,9 +58,9 @@
   </main>
 
   <div class="footer-links">
-    <a href="#">Legal</a>
-    <a href="#">Privacy</a>
-    <a href="#">Security</a>
+    <a href="https://www.intuit.com/company/">Legal</a>
+    <a href="https://www.intuit.com/privacy/">Privacy</a>
+    <a href="https://security.intuit.com/">Security</a>
   </div>
 
   <footer id="main-footer">
@@ -67,7 +68,7 @@
     <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
   </footer>
   
-  <button id="privacity">Privacity Settings</button>
+  <button id="privacity-settings">Privacity Settings</button>
 
 </body>
 

@@ -18,13 +18,69 @@ button {
 .header {
   display: flex;
   justify-content: flex-end;
-  width: 100%;
+  width: 98%;
   align-items: center;
+  margin-top: 10px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header-options {
   display: flex;
   flex-direction: column;
+  font-size: 12px;
+}
+
+.header-options p {
+  padding: 5px 0;
+}
+
+.header-button {
+  width: 110px;
+  height: 35px;
+  border-radius: 5px;
+  border: solid black 1px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.header-button:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #0077c5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-form p,
+label {
+  font-size: 14px;
+  color: #4c4c4c;
+}
+
+.sign-form a {
+  font-size: 12px;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #807e7e;
+  margin: 25px 0;
+  font-size: 20px;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#learn-more {
+  margin-top: 5px;
 }
 
 main {
@@ -36,6 +92,13 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 15px;
+}
+
+.title-icons p {
+  margin-right: 8px;
+  margin-left: 4px;
+  color: #807e7e;
 }
 
 .title-icons img {
@@ -70,33 +133,104 @@ form {
 }
 
 #form-term {
-  width: 318px;
+  width: 280px;
   text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+  color: #969090;
+  margin-bottom: 40px;
 }
 
 #inner-footer {
   font-size: 10px;
-  background: #c2c0c0;
-  width: 380px;
+  background: #e7ecf0;
+  width: 378px;
   text-align: center;
+  padding: 20px 0;
+  border-bottom: solid #cfcccc 1px;
+  border-right: solid #cfcccc 1px;
+  border-left: solid #cfcccc 1px;
+}
+
+#inner-footer p {
+  font-size: 10px;
+  color: #807e7e;
+}
+
+.footer-links a {
+  color: rgb(49, 48, 48);
+  font-size: 12px;
+  margin: 0 5px;
+}
+
+#inner-footer a {
+  font-size: 10px;
 }
 
 .footer-links {
   text-align: center;
   width: 100%;
+  margin: auto;
+  margin-top: 30px;
 }
 
 #main-footer {
-  font-size: 10px;
+  margin: auto;
+  margin-bottom: 20px;
+  font-size: 12px;
   text-align: center;
+  color: #4c4c4c;
+  width: 580px;
+  line-height: 18px;
 }
 
-#privacity {
+#privacity-settings {
   position: fixed;
   bottom: 0;
   right: -1px;
+  margin-right: 40px;
+  background-color: rgb(91, 93, 95);
+  color: #e7ecf0;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  font-size: 13px;
+  padding: 0 15px;
+}
+
+#privacity-settings:hover {
+  cursor: pointer;
 }
 
 .sign-form{
   background: #fff;
+  border: solid 1px lightgrey;
+  border-radius: 2px;
+}
+
+.normal-form button {
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  width: 310px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+
+#phone-message {
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+.normal-form button:hover {
+  cursor: pointer;
+}
+
+.normal-form input {
+  height: 30px;
+  width: 318px;
+  border-radius: 5px;
+  border: solid 1px rgb(167, 166, 166);
 }
