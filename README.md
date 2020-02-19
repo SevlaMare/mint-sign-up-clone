@@ -1,57 +1,51 @@
-# Project Name
+# Mint Sign Up
 
-> One paragraph statement about the project.
+> This is a mint.com fragment clone, here we are clonning the sign up.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshotpng.png)
 
-Additional description about the project and its features.
+The project features includes:
+
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5 and CSS3
+- Stickler-ci (Linter) and W3C validator
+- VScode, Git and Github
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://sevlamare.github.io/mint-sign-up-clone/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+Download Git at https://git-scm.com/downloads
+Make a Github account with SSH key setup in your current machine.
 
 ### Setup
+Clone the repository with terminal:
+git@github.com:SevlaMare/mint-sign-up-clone.git
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+Ready to use
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Johann Rodriguez**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/JohannRodriguez)
+- Twitter: [@twitterhandle](https://twitter.com/JohannRodriguez)
+- Linkedin: [linkedin](https://linkedin.com/JohannRodriguez)
 
-👤 **Author2**
+👤 **Thiago Miranda**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/SevlaMare)
+- Twitter: [@twitterhandle](https://twitter.com/SevlaMare)
+- Linkedin: [linkedin](https://www.linkedin.com/in/sevlamare)
 
 ## 🤝 Contributing
 
@@ -65,9 +59,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks to Mint.com for your awesome design, that we learn a lot from.
 
 ## 📝 License
 
