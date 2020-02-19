@@ -9,6 +9,28 @@ The project features includes:<br>
 -Deal with Buttons<br>
 -CSS Style and good pratices<br>
 
+## Requirements
+<ul>
+  <h3>Header</h3>
+  <li>Embedded image that represents a logo</li>
+  <li>Has the icons align with text using Flexblox</li>
+</ul>
+
+<ul>
+  <h3>Form</h3>
+  <li>Have all input field with they own correct properties</li>
+  <li>Has the icons align with text using Flexblox</li>
+  <li>The button should have the correct style</li>
+  <li>Has a footer</li>
+</ul>
+
+<ul>
+  <h3>Others</h3>
+  <li>Top right button</li>
+  <li>Bottom footer</li>
+  <li>correct main collors</li>
+</ul>
+
 
 ## Built With
 
