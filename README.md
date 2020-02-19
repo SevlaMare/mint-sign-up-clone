@@ -4,10 +4,10 @@
 
 ![screenshot](https://github.com/SevlaMare/mint-sign-up-clone/blob/master/images/screenshotpng.png)
 
-The project features includes:
--Form fields properties
--Deal with Buttons
--CSS Style and good pratices
+The project features includes:<br>
+-Form fields properties<br>
+-Deal with Buttons<br>
+-CSS Style and good pratices<br>
 
 
 ## Built With
