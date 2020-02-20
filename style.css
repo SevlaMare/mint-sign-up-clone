@@ -115,12 +115,6 @@ main {
   flex-direction: column;
 }
 
-@media (max-width: 780px) {
-  .header {
-    display: none;
-  }
-}
-
 form {
   display: flex;
   flex-direction: column;
@@ -184,7 +178,7 @@ form {
   line-height: 18px;
 }
 
-#privacity-settings {
+#privacy-settings {
   position: fixed;
   bottom: 0;
   right: -1px;
