@@ -92,6 +92,10 @@ main {
   margin-bottom: 15px;
 }
 
+.title-icons:hover {
+  cursor: pointer;
+}
+
 .title-icons p {
   margin-right: 8px;
   margin-left: 4px;
@@ -171,8 +175,11 @@ form {
   font-size: 12px;
   text-align: center;
   color: #4c4c4c;
-  width: 580px;
   line-height: 18px;
+  background-color: #0077C5;
+  word-wrap: break-word;
+  width: auto;
+  max-width: 580px;
 }
 
 #privacy-settings {
