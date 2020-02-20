@@ -24,7 +24,10 @@ button {
 }
 
 p,
-a, link, label, h3 {
+a,
+link,
+label,
+h3 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
