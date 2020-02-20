@@ -23,7 +23,11 @@ button {
   margin-top: 10px;
 }
 
-p {
+p,
+a,
+link,
+label,
+h3 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -53,7 +57,6 @@ p {
 a {
   text-decoration: none;
   color: #0077c5;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .sign-form p,
@@ -67,14 +70,12 @@ label {
 }
 
 h3 {
-  font-family: Arial, Helvetica, sans-serif;
   color: #807e7e;
   margin: 25px 0;
   font-size: 20px;
 }
 
 label {
-  font-family: Arial, Helvetica, sans-serif;
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -95,6 +96,10 @@ main {
   margin-bottom: 15px;
 }
 
+.title-icons:hover {
+  cursor: pointer;
+}
+
 .title-icons p {
   margin-right: 8px;
   margin-left: 4px;
@@ -113,12 +118,6 @@ main {
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
-
-@media (max-width: 780px) {
-  .header {
-    display: none;
-  }
 }
 
 form {
@@ -180,11 +179,13 @@ form {
   font-size: 12px;
   text-align: center;
   color: #4c4c4c;
-  width: 580px;
   line-height: 18px;
+  word-wrap: break-word;
+  width: auto;
+  max-width: 580px;
 }
 
-#privacity-settings {
+#privacy-settings {
   position: fixed;
   bottom: 0;
   right: -1px;
@@ -233,4 +234,8 @@ form {
   width: 318px;
   border-radius: 5px;
   border: solid 1px rgb(167, 166, 166);
+}
+
+.signin-main {
+  display: none;
 }
