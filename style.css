@@ -23,7 +23,7 @@ button {
   margin-top: 10px;
 }
 
-p {
+p, a, link, label, h3 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -53,7 +53,6 @@ p {
 a {
   text-decoration: none;
   color: #0077c5;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .sign-form p,
@@ -67,14 +66,12 @@ label {
 }
 
 h3 {
-  font-family: Arial, Helvetica, sans-serif;
   color: #807e7e;
   margin: 25px 0;
   font-size: 20px;
 }
 
 label {
-  font-family: Arial, Helvetica, sans-serif;
   margin-top: 30px;
   margin-bottom: 10px;
 }
