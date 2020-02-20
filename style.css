@@ -23,7 +23,8 @@ button {
   margin-top: 10px;
 }
 
-p, a, link, label, h3 {
+p,
+a, link, label, h3 {
   font-family: Arial, Helvetica, sans-serif;
 }
 

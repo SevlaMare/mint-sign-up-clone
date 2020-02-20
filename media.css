@@ -1,11 +1,11 @@
 @media (max-width: 780px) {
-    .header {
-      display: none;
-    }
+        .header {
+            display: none;
+        }
 
-    .signin-main {
-        display: flex;
-        align-items: center;
-        padding-left: 3px;
-      }
-  }
+        .signin-main {
+            display: flex;
+            align-items: center;
+            padding-left: 3px;
+        }
+}
