@@ -2,4 +2,10 @@
     .header {
       display: none;
     }
+
+    .signin-main {
+        display: flex;
+        align-items: center;
+        padding-left: 3px;
+      }
   }

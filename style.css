@@ -228,3 +228,7 @@ form {
   border-radius: 5px;
   border: solid 1px rgb(167, 166, 166);
 }
+
+.signin-main {
+  display: none;
+}
